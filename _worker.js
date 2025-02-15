@@ -22,8 +22,9 @@ https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/sub
 `
 
 let urls = [];
-let subConverter = "SUBAPI.fxxk.dedyn.io"; //在线订阅转换后端，目前使用CM的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
-let subConfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_AdblockPlus.ini"; //订阅配置文件
+let subConverter = "SUBAPI.fxxk.dedyn.io"; //https://apiurl.v1.mk/sub 在线订阅转换后端，目前使用CM的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
+let subConfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_AdblockPlus.ini"; //https://raw.githubusercontent.com/WukongMaster/demo/main/wukong.ini
+ 订阅配置文件
 let subProtocol = 'https';
 
 export default {
